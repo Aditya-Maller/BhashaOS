@@ -1,0 +1,33 @@
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+# --- Tooling caches ------------------------------------------------------------
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+
+# --- Secrets -------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# --- Runtime user data --------------
+bhashaos_data/
+
+# --- Model staging use huggingface------------
+backend/models/
+
+# --- Frontend --------------------------------------------------------------------
+node_modules/
+frontend/.vite/
+
+# --- OS noise ---------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
